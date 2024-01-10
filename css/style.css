@@ -1,0 +1,95 @@
+body{
+    background:linear-gradient(49deg, rgba(0, 0, 0, 0.767) 0%, rgba(0, 0, 0, 0.932) 100%) ,url("../images.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'STIX Two Text', serif !important;
+    
+}
+
+.layer{
+    background-color: rgb(73, 81, 95) !important;
+    border-radius: 15px;
+
+    
+
+}
+.layer i,.layer span{
+    font-size: 15.5px;
+}
+.he{
+    background-color: rgb(85, 99, 122) !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.mcol{
+    margin-bottom: 12rem;
+}
+.md{
+    
+    margin: 3rem 0rem 5rem 0rem;
+    
+}
+.form-control1{
+    width: 100%;
+    padding: .375rem .75rem;
+    border-radius: 0.375rem;
+    border: none;
+    background-color:  rgb(47, 59, 78) ;
+    color: white;
+
+}
+
+.x::before{
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 1px;
+   background-color: rgb(143, 142, 142);
+    z-index: 5555;
+    left: 100%;
+    top: 3px;
+}
+.all span{
+    font-size: 20px;
+}
+
+.y::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90%;
+   background-color: rgb(143, 142, 142);
+    z-index: 5555;
+    top: 100%;
+    
+   
+}
+
+
+.h{
+    height: 100px;
+}
+
+
+.scroll::-webkit-scrollbar {
+   
+    height: 5px;
+    position: absolute;
+    top: 1000px;
+  }
+  
+   
+  .scroll::-webkit-scrollbar-thumb {
+     background: rgb(11, 18, 30);
+    border-radius: 5px;
+  }
+  
+ 
+  .scroll::-webkit-scrollbar-track:horizontal {
+    background-color:  rgb(47, 59, 78);
+    
+    border-radius: 5px;
+  }

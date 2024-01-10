@@ -1,0 +1,118 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body >
+    <div class="container text-white">
+        <div class="row mt-3 ">
+            <div class="col-lg-1   ">
+                <div class="layer text-center d-md-flex flex-md-column  align-content-md-center mb-3  ">
+                    <div class="w-100 d-flex justify-content-center  ">
+                        <div class="he  mt-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-wind">
+                            
+                        </i>
+                    </div>
+                </div>
+
+                    <i class="fa-solid fa-cloud-sun-rain mb-1 md"></i>
+                    <span class="mb-3">weather</span>
+                    <i class="fa-solid fa-bars mb-1"></i>
+                    <span class="mb-3">List</span>
+                    <i class="fa-solid fa-map mb-1"></i>
+                    <span class="mb-3">Map</span>
+                    <i class="fa-solid fa-sliders"></i>
+                    <span class="mcol">Setting</span>
+                </div>
+            </div> 
+            <div class="col-md-7  h-100 ">
+                <input oninput="k()" type="text" class="form-control1" id="search" placeholder="Search for Citys ">
+                <div class="serch_res m-3 d-flex justify-content-between">
+                    <div  class="left d-flex flex-column justify-content-between ">
+                       <div class="d-flex flex-column">
+                        <span style="font-size: 45px;  " id="city"> </span>
+                        <span style="font-weight: 100; font-size: 17px; line-height: 0px; padding-bottom: 35px;" id="country"></span>
+                       </div> 
+
+                       <span style="font-size: 45px;" id="temp"> </span>
+                    </div> 
+                    <div class="right w-25 " id="icon">
+                        
+                        
+                    </div> 
+                </div>
+                <div class="layer p-2 mb-4">
+                   <div class="hed ">
+                    <span class="p-3 ">Today's forecast</span>
+                   </div>
+                   
+                   <div class="scroll position-relative d-flex   overflow-y-hidden   h  " id="forecast_hour"> 
+
+                
+                
+               
+               
+                 
+                </div>
+
+                </div>
+                <div class="air layer ">
+                    <div class="pt-3 ps-3"><span >AIR CONDATIONS</span></div>
+                   <div class="all d-flex justify-content-between">
+                    <div class="left m-3">
+                        <div class="top d-flex flex-column" >
+                          <span ><i class="fa-solid fa-temperature-half"></i> Humidity</span>
+                          <div id="Humidity"></div>
+                        </div>
+                        <div class="bottom d-flex flex-column">
+                            <span><i class="fa-solid fa-cloud-rain"></i>  chance of rain</span>
+                            
+                            <div id="chance_of_rain">  </div>
+                        </div>
+                    </div>
+                    <div class="right mt-3 me-5">
+                        <div class="top d-flex flex-column pe-2">
+                            <span><i class="fa-solid fa-wind"></i> wind</span>
+                            
+                            <div id="wind"> </div>
+                          </div>
+                          <div class="bottom d-flex flex-column">
+                              <span><i class="fa-solid fa-sun"></i> UV index</span>
+                              
+                              <div id="UV_index"> </div>
+                          </div>
+                    </div>
+                   </div>
+                </div>
+             
+            </div> 
+            <div class="col-md-4  mt-5">
+                <div class="layer pb-3">
+                    <div class="pt-3 ps-3"><span>7-days forecast</span></div>
+                    <div class="all" id="forecast">
+                        
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
